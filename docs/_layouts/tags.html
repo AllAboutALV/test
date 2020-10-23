@@ -1,0 +1,14 @@
+---
+layout: default
+title: Tags
+---
+<h1>Tags</h1>
+
+<ul>
+  {% for tag in site.tags %}
+    <li>
+      <h2>{{ tag.slug }} - {{ tag.name }}</h2>
+      <p>{{ tag.description | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
