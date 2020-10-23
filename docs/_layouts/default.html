@@ -39,7 +39,7 @@
 <ul>
     {% assign pages = site.pages %}
     {% for doc in pages %}
-      {% if doc.tags == "demo" %}
+      {% if doc.category == "demo" %}
         <li><a href=".{{ doc.url }}">{{ doc.title }}</a></li>
       {% endif %}
     {% endfor %}
