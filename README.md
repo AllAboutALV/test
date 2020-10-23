@@ -1,2 +1,3 @@
 # test
-test repository for markdown and asciidoc and webpage
+
+collection "tags" will be displayed but the link does not work... ;(
