@@ -34,16 +34,6 @@
       {% endif %}
     </header>
 
-<!-- Navigation -->
-<h3>tag:demo</h3>
-<ul>
-    {% assign pages = site.pages %}
-    {% for doc in pages %}
-      {% if doc.category == "demo" %}
-        <li><a href=".{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-</ul>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
