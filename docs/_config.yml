@@ -5,3 +5,19 @@ theme: jekyll-theme-cayman
 collections:
   tags:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tags"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
