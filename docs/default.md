@@ -6,3 +6,4 @@ categery: demo
 ---
 
 This is the main page.
+default.md
