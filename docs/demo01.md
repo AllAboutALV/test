@@ -1,6 +1,6 @@
 ---
 title: demo file 01
-categories: demo, test
+categories: demo test
 tags: [demo]
 ---
 
