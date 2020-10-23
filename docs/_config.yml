@@ -9,7 +9,7 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: "_tags"
       type: "tags"
     values:
       layout: "tags"
